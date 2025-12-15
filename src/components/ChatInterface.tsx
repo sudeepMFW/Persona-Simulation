@@ -71,7 +71,7 @@ export function ChatInterface({ persona, onBack }: ChatInterfaceProps) {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://40.90.232.96:8081/generate-voice', {
+      const response = await fetch('https://mediafirewall-ai.millionvisions.ai/generate-voice', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
