@@ -1,6 +1,20 @@
 import { Sparkles } from 'lucide-react';
 
-export function Logo() {
+interface LogoProps {
+  src?: string;
+}
+
+export function Logo({ src }: LogoProps) {
+  if (src) {
+    return (
+      <img 
+        src={src} 
+        alt="Company Logo" 
+        className="h-14 object-contain"
+      />
+    );
+  }
+
   return (
     <div className="flex items-center gap-3">
       <div className="relative">

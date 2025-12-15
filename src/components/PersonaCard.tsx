@@ -40,9 +40,17 @@ export function PersonaCard({ persona, onClick }: PersonaCardProps) {
         <div className={`absolute inset-0 rounded-full bg-gradient-to-r ${styles.gradient} opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl`} />
         <div className={`relative w-full h-full rounded-full bg-gradient-to-r ${styles.gradient} p-1`}>
           <div className="w-full h-full rounded-full bg-card flex items-center justify-center overflow-hidden">
-            <span className={`text-4xl font-display font-bold bg-gradient-to-r ${styles.gradient} bg-clip-text text-transparent`}>
-              {persona.name[0]}
-            </span>
+            {persona.avatar ? (
+              <img 
+                src={persona.avatar} 
+                alt={persona.name} 
+                className="w-full h-full object-cover"
+              />
+            ) : (
+              <span className={`text-4xl font-display font-bold bg-gradient-to-r ${styles.gradient} bg-clip-text text-transparent`}>
+                {persona.name[0]}
+              </span>
+            )}
           </div>
         </div>
       </div>

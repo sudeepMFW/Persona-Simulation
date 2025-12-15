@@ -92,6 +92,13 @@ export function ChatInterface({ persona, onBack }: ChatInterfaceProps) {
       };
 
       setMessages((prev) => [...prev, aiMessage]);
+
+      // Auto-play the audio
+      const audio = new Audio(audioUrl);
+      audioRef.current = audio;
+      setPlayingId(aiMessage.id);
+      audio.play();
+      audio.onended = () => setPlayingId(null);
     } catch (error) {
       toast({
         title: 'Error',
