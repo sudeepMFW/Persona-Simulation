@@ -71,7 +71,7 @@ export function ChatInterface({ persona, onBack }: ChatInterfaceProps) {
     setIsLoading(true);
 
     try {
-      const response = await fetch('http://40.90.232.96:8080/generate-voice', {
+      const response = await fetch('http://40.90.232.96:8081/generate-voice', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -279,7 +279,7 @@ export function ChatInterface({ persona, onBack }: ChatInterfaceProps) {
                     <div className={`w-2 h-2 rounded-full bg-gradient-to-r ${styles.gradient} animate-bounce`} style={{ animationDelay: '300ms' }} />
                   </div>
                   <span className={`text-sm ${styles.text} font-medium`}>
-                    Generating voice...
+                    
                   </span>
                 </div>
               </div>

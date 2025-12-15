@@ -25,7 +25,7 @@ export function Logo({ src }: LogoProps) {
       </div>
       <div>
         <h1 className="text-2xl font-display font-bold text-foreground">
-          Your Company
+          MediaFireWall.Inc
         </h1>
         <p className="text-xs text-muted-foreground uppercase tracking-wider">
           Persona Simulator

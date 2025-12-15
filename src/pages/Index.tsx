@@ -65,7 +65,7 @@ const Index = () => {
         <footer className="glass-card border-t border-border/50 py-8">
           <div className="container mx-auto px-4 text-center">
             <p className="text-sm text-muted-foreground">
-              © 2024 Your Company. All rights reserved.
+              MediaFireWall.Inc.
             </p>
           </div>
         </footer>
