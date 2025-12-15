@@ -31,7 +31,7 @@ const Index = () => {
         <section className="container mx-auto px-4 py-16 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             <Sparkles className="w-4 h-4" />
-            AI-Powered Conversations
+            Create your personas in 30 minutes
           </div>
           <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6">
             Meet Our{' '}
