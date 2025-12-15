@@ -23,7 +23,7 @@ const Index = () => {
         {/* Header */}
         <header className="glass-card border-b border-border/50 sticky top-0 z-20">
           <div className="container mx-auto px-4 py-4">
-            <Logo />
+            <Logo src="https://mediafirewall.ai/images/logo.png" />
           </div>
         </header>
 
