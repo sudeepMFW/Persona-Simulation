@@ -31,14 +31,14 @@ const Index = () => {
         <section className="container mx-auto px-4 py-16 text-center">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary text-sm font-medium mb-6">
             <Sparkles className="w-4 h-4" />
-            Create your personas in 30 minutes
+            Meet AI Personas
           </div>
           <h1 className="text-4xl md:text-6xl font-display font-bold text-foreground mb-6">
-            Build {' '}
-            <span className="gradient-text-primary">conversational AI personas in 30 mins</span>
+            Build conversational {' '}
+            <span className="gradient-text-primary">AI personas in 30 mins</span>
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto mb-4">
-          Generate realistic persona simulations using trusted public sources like Wikipedia — fast, flexible, and customizable.
+          Powered by trusted public sources from Wikipedia — fast, flexible, and customizable.
           </p>
         </section>
 
